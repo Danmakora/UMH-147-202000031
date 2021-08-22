@@ -41,22 +41,16 @@ margin: 8px;
 width: 220px;
 height: 310px;
 border-radius: 5px;
-float: unset;
+float: center;
 }
 
 .poster{
+display: flex;
+justify-content: center;
 width: 220px;
 height: 310px;
 }
 
-.column {
-    width: 33.33%;
-    padding: 5px;
-  }
-  .row {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 /* Jose Daniel Marquez Ramos */
 /*No. Cuenta 202000031 */
