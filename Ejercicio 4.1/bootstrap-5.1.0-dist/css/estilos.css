@@ -41,7 +41,7 @@ margin: 8px;
 width: 220px;
 height: 310px;
 border-radius: 5px;
-float: left;
+float: unset;
 }
 
 .poster{
@@ -53,9 +53,7 @@ height: 310px;
     width: 33.33%;
     padding: 5px;
   }
-  
-  /* Clear floats after image containers */
-  .row::after {
+  .row {
     content: "";
     clear: both;
     display: table;
