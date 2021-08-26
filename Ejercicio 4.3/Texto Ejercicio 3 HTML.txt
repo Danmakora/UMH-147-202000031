@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="bootstrap-5.1.0-dist/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="bootstrap-5.1.0-dist/css/bootstrap.min.css"/>
         <title>Ejercicio No. 3</title>
         <style>
