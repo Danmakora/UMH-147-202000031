@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="bootstrap-5.1.0-dist/css/bootstrap.min.css"/>
+        <title>Ejercicio No. 3</title>
+        <style>
+            body{
+                background-color: #212529;
+            }
+            header{
+                background-color: gray;
+                padding: 30px;
+                color: white;
+            }
+            mark{
+                text-align: center;
+                border-radius: 7px;
+                background-color: gray;
+                color: white;
+                font-weight: bold;
+            }            
+        </style>
+    </head>
+    <header>
+        <h2>Parrafo</h2>
+    </header>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3 border-0">
+                        <div class="card-body">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NcRifDitRnU" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3 border-0">
+                        <div class="card-body">
+                            <h3 class="card-title">Titulo del Video</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">Subtitulo del Video</h5>
+                            <br>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3 border-0">
+                        <div class="card-body">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qufYsoJd8Zo?cc_load_policy=1" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                            <h3 class="card-title">Titulo del Video</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">Subtitulo del Video</h5>
+                            <div class="card-footer bg-dark mb-3 border-0">
+                                <small class="text-muted"><mark>Subtitulos Activados</mark></small>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3 border-0">
+                        <div class="card-body">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/se2Fn-y3B6A?cc_load_policy=1" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                            <h3 class="card-title">Titulo del Video</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">Subtitulo del Video</h5>
+                            <div class="card-footer bg-dark mb-3 border-0">
+                                <small class="text-muted"><mark>Subtitulos Activados</mark></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3 border-0">
+                        <div class="card-body">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qeqhXvE5aPY?cc_load_policy=1" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                            <h3 class="card-title">Titulo del Video</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">Subtitulo del Video</h5>
+                            <div class="card-footer bg-dark mb-3 border-0">
+                                <small class="text-muted"><mark>Subtitulos Activados</mark></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3 border-0">
+                        <div class="card-body">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rWH4XGO1KSU?cc_load_policy=1" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                            <h3 class="card-title">Titulo del Video</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">Subtitulo del Video</h5>
+                            <div class="card-footer bg-dark mb-3 border-0">
+                                <small class="text-muted"><mark>Subtitulos Activados</mark></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
