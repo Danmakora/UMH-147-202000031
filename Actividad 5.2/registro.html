@@ -5,39 +5,53 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <style>
-        
+         h1,h5{
+             text-align: center;
+         }
+         
+         body{
+             padding: 10px;
+             margin-top: 5cm;
+             margin-bottom: 5cm;
+             background-color: #ffffff;
+         }
     </style>
 </head>
 <body>
+    <h1>Formulario de Registro</h1>
+    <br>
     <div class="container">
-        <div class="row">
-            <div class="col col-sm-6">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5">
                 <div class="card">
                     <div class="card-body">
-                        <form>
+                        <form method="GET" action="index.html">
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div>
+                                    aria-describedby="emailHelp" placeholder="Ingrese un Usuario" required="">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <label for="exampleInputPassword1" class="form-label">Escribir Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Escribir una Contraseña" required="">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputPassword2" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword2">
+                                <label for="exampleInputPassword2" class="form-label">Confirmar Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirme su contraseña" required="">
                             </div>
                             <br>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Aceptar y Registrarse</button>
+                            </div>
+                            <br>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <h5>Ya tienes cuenta? <a href="login.html">Inicia Sesion</a> </h5>
 </body>
 
 </html>
