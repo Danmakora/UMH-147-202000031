@@ -1,0 +1,312 @@
+/* Página Inicio */
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Nuevo Sitio</title>
+	
+	<!-- Main CSS file -->
+	<link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style>
+		.myButton {
+			box-shadow: 0px 1px 0px 0px #1c1b18;
+			background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+			background-color:#eae0c2;
+			border-radius:15px;
+			border:8px solid #333029;
+			display:inline-block;
+			cursor:pointer;
+			color:#505739;
+			font-family:Arial;
+			font-size:18px;
+			font-weight:bold;
+			padding:16px 16px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #ffffff;
+		}
+		.myButton:hover {
+			background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+			background-color:#ccc2a6;
+		}
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
+
+	</style>
+	
+	
+</head>
+<body>
+
+	<!-- PRELOADER -->
+	<div id="st-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+	<!-- /PRELOADER -->
+
+	<!-- HEADER -->
+	<header class="st-header st-fullHeight">
+		<div class="header-overlay"></div><!-- /HEADER OVERLY -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center st-header-content">
+					<div class="logo"><a href=""><img src="images/logo.png" alt=""></a></div>
+					<div class="st-header-title">
+						<h2>Esto es un <span>Sitio Burner</span></h2>
+						<p>El proposito e este sitio es actuar como un canal directo con el formato Form, 
+						<br />  ya que este sitio fue descargado de una página de Templates Gratuitos.
+						<br />  En lo que se enfocará la página es con el botón que lleva directamente al Form.</p>
+					</div>
+					<a href="registro.html" class="myButton">Registro</a>
+				</div>
+			</div>
+		</div>
+		<a href="#service" class="mouse-icon hidden-xs">
+			<div class="wheel"></div>
+		</a>
+	</header>
+	<!-- /HEADER -->
+
+	<!-- SERVICE ICONS -->
+	<section id="service" class="service-icons">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 st-service-box">
+					<span><i class="fa fa-cogs"></i></span>
+					<h3 class="text-uppercase">Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo, ea omnis architecto cumque? Necessitatibus.</p>
+					<a href="#">More info</a>
+				</div>
+
+				<div class="col-sm-4 st-service-box">
+					<span><i class="fa fa-life-ring"></i></span>
+					<h3 class="text-uppercase">Friendly Support</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo, ea omnis architecto cumque? Necessitatibus.</p>
+					<a href="#">More info</a>
+				</div>
+
+				<div class="col-sm-4 st-service-box">
+					<span><i class="fa fa-weixin"></i></span>
+					<h3 class="text-uppercase">Live Support</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo, ea omnis architecto cumque? Necessitatibus.</p>
+					<a href="#">More info</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /SERVICE ICONS -->
+
+	
+
+	<!-- CONTACT -->
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 contact-info">
+					<h2 class="contact-title text-uppercase">Contact us</h2>
+					<p class="contact-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum dolorum, possimus tenetur pariatur officia, quo commodi autem doloribus vero rerum aspernatur quidem temporibus.</p>
+					<p class="st-address"><i class="fa fa-map-marker"></i> <strong>E71 8th Ave, New York NY 21001, US</strong></p>
+					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>123-456-789</strong></p>
+					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>email@yourdomain.com</strong></p>
+					<p class="st-website"><i class="fa fa-globe"></i> <strong>www.yourdomain.com</strong></p>
+				</div>
+				<div class="col-sm-6 contact-form">
+					<div class="st-contact-message">
+
+					</div>
+					<form id="" name="contact-form" method="post" action="" >
+						<input type="text" name="name" required="required" id="contact-name" placeholder="Your Name">
+						<input type="email" name="email" required="required" id="contact-email" placeholder="Your Email">
+						<textarea placeholder="Massage" name="message" required="required" id="contact-message" cols="70" rows="6"></textarea>
+						<input type="submit" value="Send message" name="contact-submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /CONTACT -->
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<!-- SOCIAL ICONS -->
+				<div class="col-sm-6 col-sm-push-6 social-icons">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-google-plus"></i></a>
+					<a href=""><i class="fa fa-pinterest-p"></i></a>
+				</div>
+				<!-- /SOCIAL ICONS -->
+				<div class="col-sm-6 col-sm-pull-6 copyright">
+					<p>&copy; 2016 <a href="http://templatestock.co">Template Stock</a>. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /FOOTER -->
+	
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
+	<script type="text/javascript" src="js/jquery.parallax.js"></script><!-- Parallax -->
+	<script type="text/javascript" src="js/smoothscroll.js"></script><!-- Smooth Scroll -->
+	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
+
+</body>
+</html>
+
+
+
+/* Página Registro */
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+         h1,h5{
+             text-align: center;
+         }
+         
+         body{
+             padding: 10px;
+             margin-top: 5cm;
+             margin-bottom: 5cm;
+             background-color: #ffffff;
+         }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <br>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form method="GET" action="index.html">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Ingrese un Usuario" required="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Escribir Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Escribir una Contraseña" required="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword2" class="form-label">Confirmar Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirme su contraseña" required="">
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Aceptar y Registrarse</button>
+                            </div>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h5>Ya tienes cuenta? <a href="login.html">Inicia Sesion</a> </h5>
+</body>
+
+</html>
+
+/* Página Login */
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+         h1,h5{
+             text-align: center;
+         }
+         
+         body{
+             padding: 10px;
+             margin-top: 5cm;
+             margin-bottom: 5cm;
+             background-color: #ffffff;
+         }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <br>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form method="POST" action="registro.html">
+                            <div class="row">
+                                <div class="col mb-2">
+                                  <input type="text" class="form-control" placeholder="Primer Nombre" aria-label="Primer Nombre">
+                                </div>
+                                <div class="col mb-2">
+                                  <input type="text" class="form-control" placeholder="Ultimo Nombre" aria-label="Ultimo Nombre">
+                                </div>
+                              </div>
+                              <br>
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Ingrese su Usuario" required="">
+                                <label for="floatingInput">Usuario</label>
+                              </div>
+                            
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">Correo</span>
+                                    <input type="email" class="form-control" placeholder="Escriba su Correo" aria-label="Correo" aria-describedby="basic-addon1">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                                </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword2" class="form-label">Confirme su Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirme su contraseña">
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="inputCity" class="form-label">Ciudad</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                  </div>
+                              <div class="col-md-6">
+                                <label for="inputState" class="form-label">Pais</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Su ciudad</option>
+                                  <option>Alpha</option>
+                                  <option>Beta</option>
+                                  <option>Omega</option>
+                                </select>
+                              </div>
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Registrarse</button>
+                            </div>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
+
+</html>
