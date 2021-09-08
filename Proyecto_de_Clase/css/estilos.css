@@ -21,7 +21,7 @@ body{
 .wrapper .sidebar{
   width: 200px;
   height: 100%;
-  background: #4b4276;
+  background: #003566;
   padding: 30px 0px;
   position: fixed;
 }
@@ -35,13 +35,13 @@ body{
 
 .wrapper .sidebar ul li{
   padding: 40px;
-  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid #ffc300;
   border-bottom: 1px solid rgba(0,0,0,0.05);
   border-top: 1px solid rgba(255,255,255,0.05);
 }    
 
 .wrapper .sidebar ul li a{
-  color: #bdb8d7;
+  color: #ffc300;
   display: block;
 }
 
@@ -50,7 +50,7 @@ body{
 }
 
 .wrapper .sidebar ul li:hover{
-  background-color: #594f8d;
+  background-color: #001d3d;
 }
     
 .wrapper .sidebar ul li:hover a{
@@ -68,12 +68,12 @@ body{
 .wrapper .sidebar .social_media a{
   display: block;
   width: 40px;
-  background: #594f8d;
+  background: #001d3d;
   height: 40px;
   line-height: 45px;
   text-align: center;
   margin: 0 5px;
-  color: #bdb8d7;
+  color: #ffc300;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -86,16 +86,22 @@ body{
 .wrapper .main_content .header{
   padding: 20px;
   background: #fff;
-  color: #717171;
+  color: #000000;
   border-bottom: 1px solid #e0e4e8;
+  text-align: center;
+  font-size: 50px;
 }
 
 .wrapper .main_content .info{
   margin: 20px;
-  color: #717171;
+  color: #000000;
   line-height: 25px;
 }
 
 .wrapper .main_content .info div{
   margin-bottom: 20px;
 }
+
+.img{ 
+  margin:auto; 
+  width:100%; }
