@@ -1,0 +1,55 @@
+.body{
+font-family: Arial, Helvetica, sans-serif;
+color:#ECEFF1;
+}
+
+.container{
+width: 85%;
+border-style: solid;
+border-color: gray;
+margin: auto;
+background-color: white;
+overflow: auto;
+border-radius: 10px;
+}
+
+.menu{
+border-radius: 5px;
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 15px;
+padding-right: 15px;
+background-color: #363636;
+color: white;
+}
+
+.banner{
+width: 100%;
+height: auto;
+}
+
+.seccion{
+padding: 5px;
+margin: 10px;
+border-style: solid;
+border-color: #e0e0e0;
+background-color: #f5f5f5;
+overflow: auto;
+}
+
+.item{
+margin: 8px;
+width: 220px;
+height: 310px;
+border-radius: 5px;
+float: left;
+}
+
+.poster{
+width: 220px;
+height: 310px;
+}
+
+
+/* Jose Daniel Marquez Ramos */
+/*No. Cuenta 202000031 */
