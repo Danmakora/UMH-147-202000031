@@ -85,10 +85,10 @@ body{
 
 .wrapper .main_content .header{
   padding: 20px;
-  background: transparent;
   color: #000000;
   text-align: center;
   font-size: 50px;
+  background: transparent;
 }
 
 .wrapper .main_content .info{
@@ -106,8 +106,8 @@ body{
   width:100%; }
 
   .contact{
-		padding-top: 120px;
-		padding-bottom: 120px;
+		padding-top: 60px;
+		padding-bottom: 160px;
 	}
 
 	.contact-title{
@@ -207,7 +207,6 @@ body{
     position: fixed;
     background: url(../IMG/3422326.jpg);
     background-size: cover;
-    background-color: #58aff6;
     top: 0;
     height: 100%;
     width: 100%;
@@ -220,7 +219,7 @@ body{
     background-color: #fff;
     min-height: 500px;
     margin: 210px 0px;
-    width: 100%;
+    width: 85%;
     height: 100%;
     transform: skewY(5deg);
     z-index: -1;
@@ -235,3 +234,53 @@ body{
   .shadow{
     box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);
   }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .reposition{
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+  }  
+  .image{
+    height: 50%;
+    width: 50px;
+
+  }
+  .aligned{
+    display: flex;
+    align-items: center;
+  }
+  
