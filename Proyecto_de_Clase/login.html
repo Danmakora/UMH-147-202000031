@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-es">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7a4ff9bd61.js" crossorigin="anonymous"></script>
+    <style>
+        h1,
+        h5 {
+            text-align: center;
+        }
+
+        body {
+            margin-top: 5cm;
+            background: url(../Proyecto_de_Clase/IMG/WaveBack.jpg);
+            background-repeat: no-repeat;
+        }
+        .card{
+            padding: 15px;
+        }
+    </style>
+</head>
+<header>
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="menu.html">
+            <img src="IMG/home-icon-silhouette.svg" alt="" width="100" height="86">Volver al Inicio?
+          </a>
+        </div>
+      </nav>
+</header>
+<body>
+    
+    <h1>Inicia Sesión</h1>
+    <br>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form method="GET" action="index.html">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Ingrese un Usuario" required="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Escribir Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Escribir una Contraseña" required="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword2" class="form-label">Confirmar Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2"
+                                    placeholder="Confirme su contraseña" required="">
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Aceptar y Registrarse</button>
+                            </div>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h5>No tienes cuenta? <a href="registro.html">Crea una ahora!</a> </h5>
+</body>
+
+</html>
