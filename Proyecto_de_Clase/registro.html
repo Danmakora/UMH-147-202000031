@@ -13,8 +13,8 @@
 
         body {
             padding: 10px;
-            margin-top: 5cm;
-            margin-bottom: 5cm;
+            margin-top: 5px;
+            margin-bottom: 3cm;
             background: linear-gradient(to bottom, #ff99cc 0%, #33ccff 100%);
         }
     </style>
@@ -28,14 +28,14 @@
             <div class="col-5">
                 <div class="card">
                     <div class="card-body">
-                        <form method="POST" action="registro.html">
+                        <form method="POST" action="login.html">
                             <div class="row">
                                 <div class="col mb-2">
                                     <input type="text" class="form-control" placeholder="Primer Nombre"
                                         aria-label="Primer Nombre">
                                 </div>
                                 <div class="col mb-2">
-                                    <input type="text" class="form-control" placeholder="Ultimo Nombre"
+                                    <input type="text" class="form-control" placeholder="Primer Apellido"
                                         aria-label="Ultimo Nombre">
                                 </div>
                             </div>
@@ -62,6 +62,19 @@
                                 <input type="password" class="form-control" id="exampleInputPassword2"
                                     placeholder="Confirme su contraseña">
                             </div>
+                            <div class="mb-3">
+                                <label for="exampleInputNumber1" class="form-label">Número de Teléfono</label>
+                                <input type="number" class="form-control" id="exampleInputNumber1"
+                                    placeholder="Número de Teleéfono">
+                            </div>
+                            <label>Género</label>
+                            <select class="form-select mb-3" aria-label=".form-select example">
+                                <option selected>Escoja su Genero</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
+                                <option value="3">Otro</option>
+                                <option value="4">Prefiero no decir</option>
+                              </select>
 
                             <div class="row">
                                 <div class="col-md-6">
@@ -71,12 +84,17 @@
                                 <div class="col-md-6">
                                     <label for="inputState" class="form-label">Pais</label>
                                     <select id="inputState" class="form-select">
-                                        <option selected>Su ciudad</option>
+                                        <option selected>Su País</option>
                                         <option>Alpha</option>
                                         <option>Beta</option>
                                         <option>Omega</option>
                                     </select>
                                 </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Date1" class="form-label">Fecha de Nacimiento</label>
+                                <input type="date" class="form-control" id="Date1"
+                                    placeholder="Número de Teleéfono">
                             </div>
                             <br>
                             <div class="text-center">
